@@ -1,0 +1,52 @@
+{
+  "name": "Espresso English — Grammar Studio",
+  "short_name": "Grammar",
+  "description": "Biblioteca de gramática da Espresso English: 15 categorias, 6 níveis, lesson notes para o professor e prática imprimível em A4 para o aluno.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "id": "/espresso-grammar/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#FAF7F2",
+  "theme_color": "#637468",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Exercises",
+      "short_name": "Exercises",
+      "description": "Abrir a lista de conjuntos de prática",
+      "url": "./#/exercises",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Categories",
+      "short_name": "Categories",
+      "description": "Navegar pelas 15 categorias de gramática",
+      "url": "./#/categories",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
