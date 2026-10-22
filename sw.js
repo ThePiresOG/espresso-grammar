@@ -2,7 +2,7 @@
    Estratégia: navegação = network-first (sempre pega a versão nova quando online),
    demais arquivos do app = stale-while-revalidate. Offline: serve o shell em cache. */
 
-const CACHE = "ee-grammar-v1";
+const CACHE = "ee-grammar-v2";
 const SHELL = [
   "./",
   "./index.html",
